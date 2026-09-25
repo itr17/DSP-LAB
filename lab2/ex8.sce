@@ -22,7 +22,7 @@ plot2d3(n2, y2); title("y2(n) = x(n+3)"); xlabel("n"); ylabel("y2(n)");
 y3 = 2 * x($:-1:1);
 n3 = -n($:-1:1) - 2;
 
-scf(3); // Mo cua so Figure 3
+scf(3); 
 subplot(2,1,1);
 plot2d3(n, x); title("Original Signal x(n)"); xlabel("n"); ylabel("x(n)");
 subplot(2,1,2);
