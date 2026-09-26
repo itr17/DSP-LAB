@@ -1,6 +1,5 @@
-// So sánh 3 tín hiệu: gốc mượt, mẫu 600Hz, tái tạo sau D/A
 clear; clc;
-close();                   // đóng hết figure cũ, tránh cửa sổ thừa
+close();                   
 
 T = 0.02;                  
 
