@@ -1,9 +1,3 @@
-//=====================================================
-//Minh họa Aliasing - Bài 1.7 (câu b và c)
-//Fs = 8 kHz
-//5 kHz → alias thành 3 kHz
-//9 kHz → alias thành 1 kHz
-//=====================================================
 clear; clc; clf;
 
 //tham số
