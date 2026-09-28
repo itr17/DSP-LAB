@@ -40,7 +40,7 @@ function [yn, yorigin] = multi(x1n, x1origin, x2n, x2origin)
     subplot(3, 1, 3);
     plot2d3(n_y, yn);
     plot(n_y, yn, 'bo'); 
-    title('Output Signal y(n) = x1(n) .* x2(n)');
+    title('Output Signal y(n) = x1(n) * x2(n)');
     xlabel('n'); ylabel('Amplitude');
     xgrid();
 endfunction
