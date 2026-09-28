@@ -32,4 +32,4 @@ function [yn, yorigin] = convolution(xn, xorigin, hn, horigin)
 endfunction
 
 // Example
-[yn, yorigin] = multi([0, 1, 3, -2], 1, [1, 1, 2, 3], 2)
+[yn, yorigin] = convolution([1, 2, 1], 2, [1, -1], 1)
