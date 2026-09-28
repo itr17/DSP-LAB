@@ -4,7 +4,7 @@ function [yn, yorigin] = multi(x1n, x1origin, x2n, x2origin)
     
     n_min = min(min(n1), min(n2));
     n_max = max(max(n1), max(n2));
-    n_y = n_min:n_max; // Trục thời gian chung cho y(n)
+    n_y = n_min:n_max; 
     
     y1 = zeros(1, length(n_y));
     y2 = zeros(1, length(n_y));
